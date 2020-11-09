@@ -1,0 +1,64 @@
+			Final Model: Random Forest
+
+Model Features:
+79 total, I used all the features created in my data wrangling step except the text features
+
+Parameters/Hyperparameters:
+Default parameters implemented in sklearn RandomForestClassifier
+
+Performance Metrics:
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      3777
+           1       0.97      0.59      0.73       196
+
+    accuracy                           0.98      3973
+
+
+Confusion Matrix:
+			Predicted Class
+			Real	Fake
+Actual		Real	3773    4
+Class		Fake	  80  116
+
+
+Other models-
+
+			Model: Naive Bayes
+
+Performance Metrics:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98      3777
+           1       0.93      0.38      0.54       196
+
+    accuracy                           0.97      3973
+   macro avg       0.95      0.69      0.76      3973
+weighted avg       0.97      0.97      0.96      3973
+
+Confusion Matrix:
+			Predicted Class
+			Real	Fake
+Actual		Real	3771     6
+Class		Fake	 122    74
+
+
+			Model: Logistic Regression
+
+Performance Metrics:
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98      3777
+           1       0.73      0.29      0.41       196
+
+    accuracy                           0.96      3973
+   macro avg       0.85      0.64      0.69      3973
+weighted avg       0.95      0.96      0.95      3973
+
+Confusion Matrix:
+			Predicted Class
+			Real	Fake
+Actual		Real	3756    21
+Class		Fake	 140	56
+
