@@ -1,0 +1,24 @@
+Final Model: Random Forest
+
+Model Features:
+79 total, I used all the features created in my data wrangling step except the text features
+
+Parameters/Hyperparameters:
+Default parameters implemented in sklearn RandomForestClassifier
+
+Performance Metrics:
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      3777
+           1       0.97      0.59      0.73       196
+
+    accuracy                           0.98      3973
+
+
+Confusion Matrix:
+			Actual Class
+			Real	Fake
+Predicted	Real	3773    4
+Class		Fake	  80  116
+
